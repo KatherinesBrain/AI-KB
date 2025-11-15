@@ -1,0 +1,67 @@
+{
+  "id": "ada_lovelace",
+  "entity_type": "Person",
+  "labels": [
+    "Ada Lovelace",
+    "Augusta Ada King"
+  ],
+  "summary_variants": {
+    "short_answer": "Ada Lovelace was a 19th-century English mathematician credited with writing the first published algorithm intended for a machine.",
+    "kid_friendly": "Ada Lovelace imagined how early machines could follow instructions like computers do today, making her a computing pioneer.",
+    "standard": "Ada Lovelace (1815–1852) was an English mathematician who collaborated with Charles Babbage on his Analytical Engine. Her notes on Luigi Menabrea’s paper described how the Engine could manipulate symbols and not just numbers, making her an early visionary of computer programming.",
+    "expert_notes": "Emphasize Note G from the Menabrea translation, the Bernoulli numbers algorithm, and her conceptual leap about general-purpose computing."
+  },
+  "slots": {
+    "full_name": "Augusta Ada King, Countess of Lovelace",
+    "date_of_birth": "1815-12-10",
+    "place_of_birth": "London, England",
+    "date_of_death": "1852-11-27",
+    "nationalities": ["British"],
+    "occupations": ["mathematician", "writer"],
+    "roles_offices": ["Countess of Lovelace"],
+    "notable_actions": [
+      "Translated and annotated Menabrea's description of the Analytical Engine (1843)",
+      "Outlined the first published algorithm (Bernoulli numbers) for a mechanical general-purpose computer",
+      "Predicted that machines could compose music or art when supplied with rules"
+    ],
+    "awards": [],
+    "education": [
+      "Tutored privately in mathematics and languages"
+    ],
+    "current_status": "Deceased (1852)"
+  },
+  "evidence": [
+    {
+      "source_id": "wp_ada_lovelace",
+      "type": "reference_article",
+      "title": "Ada Lovelace",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+      "supports_claims": [
+        "/slots/notable_actions"
+      ],
+      "notes": "Summarizes early computing contributions."
+    }
+  ],
+  "consensus_level": "historical_record",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Ada Lovelace - Biography",
+        "url": "https://www.britannica.com/biography/Ada-Lovelace",
+        "note": "Britannica article."
+      }
+    ],
+    "notes": ""
+  }
+}

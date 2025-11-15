@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://livingkb/schema/evidence_item.schema.json",
+  "title": "EvidenceItem",
+  "type": "object",
+  "required": ["source_id", "type", "title", "url"],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "reference_article",
+        "journal_article",
+        "book",
+        "primary_source",
+        "report",
+        "interview",
+        "dataset"
+      ]
+    },
+    "title": { "type": "string" },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "year": { "type": "integer" },
+    "venue": { "type": "string" },
+    "study_type": { "type": "string" },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "supports_claims": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}
+

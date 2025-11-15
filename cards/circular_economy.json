@@ -1,0 +1,77 @@
+{
+  "id": "circular_economy",
+  "entity_type": "Concept",
+  "labels": [
+    "Circular economy"
+  ],
+  "summary_variants": {
+    "short_answer": "A circular economy is an industrial system designed to minimize waste and keep materials in use through reuse, repair, remanufacture, and recycling.",
+    "kid_friendly": "In a circular economy, people try to make things last longer by fixing, sharing, and recycling instead of throwing them away.",
+    "standard": "The circular economy framework seeks to decouple growth from resource use by designing products for durability, maximizing reuse loops, and recovering nutrients and materials at end-of-life. It blends industrial ecology principles with policy tools such as extended producer responsibility.",
+    "expert_notes": "Include Ellen MacArthur Foundation's butterfly diagram, EU Circular Economy Action Plan, metrics (material circularity indicator), and critiques about rebound effects."
+  },
+  "slots": {
+    "definition": "An economic model focused on regenerative design that keeps products, components, and materials at their highest utility for as long as possible.",
+    "key_characteristics": [
+      "Design out waste and pollution",
+      "Keep products and materials in circulation",
+      "Regenerate natural systems"
+    ],
+    "applications": [
+      "Product-as-a-service business models",
+      "Industrial symbiosis in manufacturing parks",
+      "Organic waste composting and nutrient recovery"
+    ],
+    "limitations": [
+      "Complex supply-chain coordination",
+      "Potential rebound effects if total consumption rises",
+      "Measurement challenges for true circularity"
+    ],
+    "history": [
+      "Inspired by cradle-to-cradle design (2002)",
+      "Popularized by the Ellen MacArthur Foundation (2010s)",
+      "Adopted in EU policy frameworks (2015, 2020)"
+    ],
+    "related_concepts": [
+      "sustainable design",
+      "industrial ecology",
+      "extended producer responsibility"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "emf_circular_economy",
+      "type": "report",
+      "title": "Towards the Circular Economy",
+      "year": 2013,
+      "venue": "Ellen MacArthur Foundation",
+      "url": "https://ellenmacarthurfoundation.org/towards-the-circular-economy",
+      "supports_claims": [
+        "/slots/key_characteristics",
+        "/slots/applications"
+      ],
+      "notes": "Foundational report."
+    }
+  ],
+  "consensus_level": "consensus_mixed",
+  "epistemic_type": "mixed_empirical_hypothesis",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Circular Economy - European Commission",
+        "url": "https://environment.ec.europa.eu/strategy/circular-economy-action-plan_en",
+        "note": "Policy summary."
+      }
+    ],
+    "notes": ""
+  }
+}
+

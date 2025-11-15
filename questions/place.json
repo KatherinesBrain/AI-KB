@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "schema_version": "0.1",
+    "generated_at": "2024-01-01T00:00:00Z"
+  },
+  "templates": [
+    {
+      "id": "place_identity",
+      "entity_type": "Place",
+      "intent": "location_overview",
+      "patterns": [
+        "Where is {name}?",
+        "What is {name}?",
+        "Tell me about {name}"
+      ],
+      "field_paths": ["summary_variants.short_answer"],
+      "style": "short",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "place_kid_friendly",
+      "entity_type": "Place",
+      "intent": "kid_overview",
+      "patterns": [
+        "Explain {name} to a kid",
+        "Where is {name} for children?"
+      ],
+      "field_paths": ["summary_variants.kid_friendly"],
+      "style": "kid_friendly",
+      "fallback_style": "short"
+    },
+    {
+      "id": "place_population",
+      "entity_type": "Place",
+      "intent": "population",
+      "patterns": [
+        "How many people live in {name}?",
+        "What is the population of {name}?"
+      ],
+      "field_paths": ["slots.population_estimate"],
+      "style": "short",
+      "fallback_style": "standard",
+      "notes": "Return approximate number plus qualifier."
+    },
+    {
+      "id": "place_notability",
+      "entity_type": "Place",
+      "intent": "place_notability",
+      "patterns": [
+        "Why is {name} notable?",
+        "What is special about {name}?"
+      ],
+      "field_paths": ["slots.notable_features"],
+      "style": "list",
+      "fallback_style": "standard",
+      "explanation_style": "list"
+    },
+    {
+      "id": "place_coordinates",
+      "entity_type": "Place",
+      "intent": "coordinates",
+      "patterns": [
+        "What are the coordinates of {name}?",
+        "Where on the map is {name}?"
+      ],
+      "field_paths": ["slots.coordinates"],
+      "style": "standard",
+      "fallback_style": "short",
+      "notes": "Render as lat/long pair."
+    },
+    {
+      "id": "place_country",
+      "entity_type": "Place",
+      "intent": "country",
+      "patterns": [
+        "Which country is {name} in?",
+        "What country does {name} belong to?"
+      ],
+      "field_paths": ["slots.country"],
+      "style": "short",
+      "fallback_style": "standard"
+    }
+  ]
+}
+

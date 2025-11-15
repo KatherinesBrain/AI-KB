@@ -1,0 +1,87 @@
+{
+  "id": "marie_curie",
+  "entity_type": "Person",
+  "labels": [
+    "Marie Curie",
+    "Maria Skłodowska-Curie"
+  ],
+  "summary_variants": {
+    "short_answer": "Marie Curie was a Polish-French physicist and chemist who pioneered research on radioactivity and won two Nobel Prizes.",
+    "kid_friendly": "Marie Curie studied tiny, invisible things called atoms and discovered new elements. She won two big science prizes for her work.",
+    "standard": "Marie Curie (1867–1934) was a Polish-born physicist and chemist who moved to France, discovered the elements polonium and radium, and helped establish the theory of radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields.",
+    "expert_notes": "Discuss her isolation of radium, development of mobile X-ray units during World War I, and enduring impact on nuclear physics and medical imaging."
+  },
+  "slots": {
+    "full_name": "Maria Salomea Skłodowska-Curie",
+    "date_of_birth": "1867-11-07",
+    "place_of_birth": "Warsaw, Congress Poland (Russian Empire)",
+    "date_of_death": "1934-07-04",
+    "nationalities": [
+      "Polish",
+      "French"
+    ],
+    "occupations": [
+      "physicist",
+      "chemist"
+    ],
+    "roles_offices": [
+      "Professor at the University of Paris",
+      "Director of the Radium Institute"
+    ],
+    "notable_actions": [
+      "Co-discovered polonium and radium (1898)",
+      "Coined and developed the theory of radioactivity",
+      "Organized mobile radiography units during World War I"
+    ],
+    "awards": [
+      "Nobel Prize in Physics (1903)",
+      "Nobel Prize in Chemistry (1911)"
+    ],
+    "education": [
+      "University of Paris (Sorbonne)"
+    ],
+    "current_status": "Deceased (1934)"
+  },
+  "evidence": [
+    {
+      "source_id": "wp_marie_curie",
+      "type": "reference_article",
+      "title": "Marie Curie",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "supports_claims": [
+        "/slots/notable_actions",
+        "/slots/awards"
+      ],
+      "notes": "Standard biographical reference."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [
+    {
+      "type": "born_in",
+      "target_id": "warsaw_poland",
+      "description": "Born in Warsaw; placeholder card to be added."
+    }
+  ],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Marie Curie - Nobel Prize",
+        "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+        "note": "Official Nobel biography."
+      }
+    ],
+    "notes": ""
+  }
+}
+

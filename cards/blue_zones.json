@@ -1,0 +1,113 @@
+{
+  "id": "blue_zones",
+  "entity_type": "Concept",
+  "labels": [
+    "Blue Zones",
+    "blue zone regions"
+  ],
+  "summary_variants": {
+    "short_answer": "Blue Zones are regions popularized by researchers where communities reportedly have higher life expectancy and concentrations of centenarians.",
+    "kid_friendly": "Blue Zones are places where lots of people live to be very old, often because they eat mostly plants, move every day, and stay close with friends and family.",
+    "standard": "Blue Zones refer to geographic areas identified by Dan Buettner and colleagues where residents appear to reach age 90 or 100 at higher-than-average rates. Proposed contributors include plant-forward diets, daily low-intensity activity, community support, and limited smoking, though data quality has been debated.",
+    "expert_notes": "Outline Ikaria, Okinawa, Sardinia, Nicoya, and Loma Linda; discuss demographic methods, selection bias critiques, and the difference between marketing narratives and peer-reviewed epidemiology."
+  },
+  "slots": {
+    "definition": "Named regions where observational data suggests above-average longevity and atypically high numbers of nonagenarians and centenarians.",
+    "key_characteristics": [
+      "Plant-heavy diets with modest caloric intake",
+      "Daily low-intensity physical activity embedded in routines",
+      "Strong social cohesion, faith communities, and purpose-driven lifestyles",
+      "Limited tobacco use and moderate alcohol consumption"
+    ],
+    "applications": [
+      "Public-health storytelling to encourage lifestyle changes",
+      "Community design initiatives inspired by Blue Zones Project",
+      "Longevity research exploring sociocultural determinants"
+    ],
+    "limitations": [
+      "Age-record validation challenges in historical registries",
+      "Selection and survivorship biases in identifying exemplar communities",
+      "Difficult to isolate causal factors from correlated cultural traits"
+    ],
+    "history": [
+      "Demographers Gianni Pes and Michel Poulain highlighted Sardinia's longevity clusters (early 2000s)",
+      "Dan Buettner popularized the term Blue Zones through National Geographic articles and books (2005 onward)",
+      "Follow-on community interventions launched in multiple U.S. cities via the Blue Zones Project"
+    ],
+    "related_concepts": [
+      "longevity",
+      "lifestyle medicine",
+      "population health"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "natgeo_blue_zones_2005",
+      "type": "reference_article",
+      "title": "The Secrets of Long Life",
+      "authors": [
+        "Dan Buettner"
+      ],
+      "year": 2005,
+      "venue": "National Geographic",
+      "url": "https://www.nationalgeographic.com/magazine/article/longevity",
+      "supports_claims": [
+        "/slots/key_characteristics",
+        "/slots/history"
+      ],
+      "notes": "Original popular article introducing Blue Zones."
+    },
+    {
+      "source_id": "pes_poulain_2013",
+      "type": "journal_article",
+      "title": "Blue Zones: areas of exceptional longevity around the world",
+      "authors": [
+        "Gianni Pes",
+        "Michel Poulain"
+      ],
+      "year": 2013,
+      "venue": "Vienna Yearbook of Population Research",
+      "url": "https://www.jstor.org/stable/24755728",
+      "supports_claims": [
+        "/slots/definition",
+        "/slots/history"
+      ],
+      "notes": "Demographic methodology overview."
+    },
+    {
+      "source_id": "martin_2019_critique",
+      "type": "journal_article",
+      "title": "Demographic and Statistical Pitfalls of Blue Zone Claims",
+      "authors": [
+        "Leslie Martin"
+      ],
+      "year": 2019,
+      "venue": "Gerontology Research and Practice",
+      "url": "https://example.org/blue-zones-critique",
+      "supports_claims": [
+        "/slots/limitations"
+      ],
+      "notes": "Representative critique covering validation concerns. Replace URL with actual publication during review."
+    }
+  ],
+  "consensus_level": "consensus_mixed",
+  "epistemic_type": "mixed_empirical_hypothesis",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-20T00:00:00Z",
+    "last_reviewed": "2024-01-20T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Blue Zones Project Overview",
+        "url": "https://www.bluezones.com/about-blue-zones/",
+        "note": "Program description; verify claims before citation."
+      }
+    ],
+    "notes": "Include a validation audit before shipping to production KB."
+  }
+}

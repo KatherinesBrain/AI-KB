@@ -1,0 +1,78 @@
+{
+  "id": "vaccination",
+  "entity_type": "Concept",
+  "labels": [
+    "Vaccination",
+    "Immunization"
+  ],
+  "summary_variants": {
+    "short_answer": "Vaccination introduces an antigen or genetic blueprint to train the immune system to prevent or lessen infectious disease.",
+    "kid_friendly": "Vaccines teach your body how to fight germs before you get really sick.",
+    "standard": "Vaccination is a biomedical intervention that stimulates adaptive immunity by exposing the body to antigens or antigen-encoding material. It primes B and T cells, enabling faster and stronger responses upon real infection and is a cornerstone of public health.",
+    "expert_notes": "Cover antigen designs (live-attenuated, inactivated, mRNA, vector-based), herd immunity thresholds, safety surveillance (VAERS, VSD), and cold-chain logistics."
+  },
+  "slots": {
+    "definition": "The administration of antigenic material to induce protective immunity against a pathogen.",
+    "key_characteristics": [
+      "Relies on humoral and cellular immune memory",
+      "Diverse platforms: live attenuated, inactivated, subunit, conjugate, mRNA, viral vector",
+      "Requires dosing schedules and boosters for sustained protection"
+    ],
+    "applications": [
+      "Preventing childhood diseases (measles, polio)",
+      "Reducing pandemics (COVID-19)",
+      "Protecting high-risk workers (hepatitis B, rabies)"
+    ],
+    "limitations": [
+      "Cold-chain and delivery infrastructure requirements",
+      "Rare adverse events require monitoring",
+      "Pathogen evolution can reduce effectiveness"
+    ],
+    "history": [
+      "Edward Jenner's smallpox inoculation (1796)",
+      "Global eradication of smallpox (1980)",
+      "Rapid mRNA vaccine deployment during COVID-19 (2020)"
+    ],
+    "related_concepts": [
+      "herd immunity",
+      "immunology",
+      "public health"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "cdc_vaccines",
+      "type": "report",
+      "title": "General Best Practice Guidelines for Immunization",
+      "year": 2023,
+      "venue": "CDC",
+      "url": "https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/index.html",
+      "supports_claims": [
+        "/slots/key_characteristics",
+        "/slots/limitations"
+      ],
+      "notes": "CDC ACIP summary."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_science",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Vaccination - WHO",
+        "url": "https://www.who.int/health-topics/vaccines-and-immunization",
+        "note": "WHO overview."
+      }
+    ],
+    "notes": ""
+  }
+}
+

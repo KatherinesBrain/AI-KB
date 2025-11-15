@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "schema_version": "0.1",
+    "generated_at": "2024-01-01T00:00:00Z"
+  },
+  "templates": [
+    {
+      "id": "person_identity_overview",
+      "entity_type": "Person",
+      "intent": "identity_overview",
+      "patterns": [
+        "Who is {name}?",
+        "Tell me about {name}",
+        "What is known about {name}?"
+      ],
+      "field_paths": ["summary_variants.short_answer"],
+      "style": "short",
+      "fallback_style": "standard",
+      "explanation_style": "plain",
+      "notes": "Primary introduction template. Use short answer; escalate to standard if user requests more detail."
+    },
+    {
+      "id": "person_kid_friendly_overview",
+      "entity_type": "Person",
+      "intent": "kid_overview",
+      "patterns": [
+        "Explain {name} to a kid",
+        "Who is {name} for children?"
+      ],
+      "field_paths": ["summary_variants.kid_friendly"],
+      "style": "kid_friendly",
+      "fallback_style": "short"
+    },
+    {
+      "id": "person_place_of_birth",
+      "entity_type": "Person",
+      "intent": "place_of_birth",
+      "patterns": [
+        "Where was {name} born?",
+        "What is {name}'s birthplace?"
+      ],
+      "field_paths": ["slots.place_of_birth"],
+      "style": "short",
+      "fallback_style": "standard",
+      "notes": "Return location string. If multiple places, join with semicolons."
+    },
+    {
+      "id": "person_date_of_birth",
+      "entity_type": "Person",
+      "intent": "date_of_birth",
+      "patterns": [
+        "When was {name} born?",
+        "What is {name}'s birthday?"
+      ],
+      "field_paths": ["slots.date_of_birth"],
+      "style": "short",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "person_notable_work",
+      "entity_type": "Person",
+      "intent": "notable_work",
+      "patterns": [
+        "What is {name} known for?",
+        "What did {name} do?",
+        "Which accomplishments did {name} achieve?"
+      ],
+      "field_paths": ["slots.notable_actions"],
+      "style": "list",
+      "fallback_style": "standard",
+      "explanation_style": "list",
+      "notes": "Return comma-separated list or bullet list when render engine supports it."
+    },
+    {
+      "id": "person_roles",
+      "entity_type": "Person",
+      "intent": "roles_offices",
+      "patterns": [
+        "What offices did {name} hold?",
+        "What roles has {name} served?"
+      ],
+      "field_paths": ["slots.roles_offices"],
+      "style": "list",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "person_awards",
+      "entity_type": "Person",
+      "intent": "awards",
+      "patterns": [
+        "What awards did {name} win?",
+        "List {name}'s prizes"
+      ],
+      "field_paths": ["slots.awards"],
+      "style": "list",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "person_current_status",
+      "entity_type": "Person",
+      "intent": "current_status",
+      "patterns": [
+        "Is {name} still alive?",
+        "What is {name} doing now?"
+      ],
+      "field_paths": ["slots.current_status"],
+      "style": "short",
+      "fallback_style": "standard"
+    }
+  ]
+}
+

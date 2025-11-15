@@ -1,0 +1,79 @@
+{
+  "id": "blockchain",
+  "entity_type": "Concept",
+  "labels": [
+    "Blockchain",
+    "Distributed ledger"
+  ],
+  "summary_variants": {
+    "short_answer": "A blockchain is a distributed ledger that records transactions in blocks linked by cryptographic hashes, making tampering difficult without network consensus.",
+    "kid_friendly": "A blockchain is like a shared notebook where many computers agree on each page, so nobody can secretly change what was written before.",
+    "standard": "Blockchain technology organizes data into sequential blocks secured by cryptographic hashes and validated through consensus mechanisms (proof-of-work, proof-of-stake, etc.). It enables decentralized record keeping for cryptocurrencies and other applications that require audit trails without a central authority.",
+    "expert_notes": "Discuss trade-offs among consensus algorithms, scalability limits (throughput, latency), smart contracts, and regulatory considerations."
+  },
+  "slots": {
+    "definition": "A distributed ledger structure that stores ordered records across a peer-to-peer network, using consensus to validate new entries.",
+    "key_characteristics": [
+      "Data grouped into blocks with cryptographic hashes referencing prior blocks",
+      "Consensus protocols coordinate validation among nodes",
+      "Immutability is probabilistic, depending on honest majority assumptions",
+      "Often paired with smart contract execution environments"
+    ],
+    "applications": [
+      "Cryptocurrencies (e.g., Bitcoin, Ethereum)",
+      "Supply-chain provenance tracking",
+      "Decentralized identity and credential verification"
+    ],
+    "limitations": [
+      "Scalability constraints on throughput and energy use",
+      "Governance and upgrade challenges without central control",
+      "Privacy trade-offs compared with traditional databases"
+    ],
+    "history": [
+      "Bitcoin white paper (2008) formalized proof-of-work blockchain",
+      "Second-generation platforms (2015 onward) added programmable smart contracts",
+      "Enterprise consortia explore permissioned ledgers"
+    ],
+    "related_concepts": [
+      "cryptocurrency",
+      "distributed ledger technology",
+      "smart contract"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "nist_blockchain",
+      "type": "report",
+      "title": "Blockchain Technology Overview",
+      "year": 2018,
+      "venue": "NIST",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+      "supports_claims": [
+        "/slots/key_characteristics",
+        "/slots/limitations"
+      ],
+      "notes": "Technical reference."
+    }
+  ],
+  "consensus_level": "consensus_mixed",
+  "epistemic_type": "mixed_empirical_hypothesis",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Blockchain - MIT Technology Review",
+        "url": "https://www.technologyreview.com/2019/03/04/530172/blockchain-explainer/",
+        "note": "Overview article."
+      }
+    ],
+    "notes": ""
+  }
+}
+

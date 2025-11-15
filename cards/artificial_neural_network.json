@@ -1,0 +1,84 @@
+{
+  "id": "artificial_neural_network",
+  "entity_type": "Concept",
+  "labels": [
+    "Artificial neural network",
+    "ANN"
+  ],
+  "summary_variants": {
+    "short_answer": "An artificial neural network is a computational model composed of layers of interconnected nodes that learn patterns from data.",
+    "kid_friendly": "An artificial neural network is a computer system that learns by adjusting lots of tiny connections, similar to how our brains learn from practice.",
+    "standard": "Artificial neural networks consist of input, hidden, and output layers of weighted nodes. Through training algorithms such as backpropagation, they adjust weights to approximate functions for tasks like classification, regression, or generation.",
+    "expert_notes": "Note architectures (feedforward, convolutional, recurrent, transformer), optimization strategies, inductive biases, and compute/data scaling laws."
+  },
+  "slots": {
+    "definition": "A machine learning model inspired by biological neurons that maps inputs to outputs via learned weights across layered nodes.",
+    "key_characteristics": [
+      "Composed of layers with nonlinear activation functions",
+      "Learnable parameters updated via gradient-based optimization",
+      "Can approximate complex functions with sufficient depth and training data",
+      "Susceptible to overfitting without regularization"
+    ],
+    "applications": [
+      "Computer vision (image classification, object detection)",
+      "Natural language processing (translation, text generation)",
+      "Speech recognition and synthesis"
+    ],
+    "limitations": [
+      "Require large labeled datasets and compute resources",
+      "Opaque decision-making (interpretability challenges)",
+      "Vulnerable to adversarial inputs and distribution shift"
+    ],
+    "history": [
+      "Perceptron (1958), backpropagation renaissance (1980s)",
+      "Deep learning breakthroughs in image recognition (2012)",
+      "Transformer architectures enabling large language models (2017 onward)"
+    ],
+    "related_concepts": [
+      "machine learning",
+      "deep learning",
+      "transformer model"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "goodfellow_dl",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Ian Goodfellow",
+        "Yoshua Bengio",
+        "Aaron Courville"
+      ],
+      "year": 2016,
+      "venue": "MIT Press",
+      "url": "https://www.deeplearningbook.org/",
+      "supports_claims": [
+        "/slots/key_characteristics",
+        "/slots/history"
+      ],
+      "notes": "Standard textbook reference."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_science",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Neural network - Britannica",
+        "url": "https://www.britannica.com/technology/neural-network",
+        "note": "Encyclopedia entry."
+      }
+    ],
+    "notes": ""
+  }
+}
+

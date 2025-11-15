@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "schema_version": "0.1",
+    "generated_at": "2024-01-01T00:00:00Z"
+  },
+  "templates": [
+    {
+      "id": "concept_definition",
+      "entity_type": "Concept",
+      "intent": "definition",
+      "patterns": [
+        "What is {name}?",
+        "Define {name}",
+        "Explain {name}"
+      ],
+      "field_paths": ["slots.definition"],
+      "style": "standard",
+      "fallback_style": "short"
+    },
+    {
+      "id": "concept_kid_friendly",
+      "entity_type": "Concept",
+      "intent": "kid_overview",
+      "patterns": [
+        "Explain {name} to a kid"
+      ],
+      "field_paths": ["summary_variants.kid_friendly"],
+      "style": "kid_friendly",
+      "fallback_style": "short"
+    },
+    {
+      "id": "concept_key_characteristics",
+      "entity_type": "Concept",
+      "intent": "key_characteristics",
+      "patterns": [
+        "What are the key features of {name}?",
+        "What makes {name} work?"
+      ],
+      "field_paths": ["slots.key_characteristics"],
+      "style": "list",
+      "fallback_style": "standard",
+      "explanation_style": "list"
+    },
+    {
+      "id": "concept_applications",
+      "entity_type": "Concept",
+      "intent": "applications",
+      "patterns": [
+        "What is {name} used for?",
+        "Where is {name} applied?"
+      ],
+      "field_paths": ["slots.applications"],
+      "style": "list",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "concept_limitations",
+      "entity_type": "Concept",
+      "intent": "limitations",
+      "patterns": [
+        "What are the limitations of {name}?",
+        "Why might {name} not work?"
+      ],
+      "field_paths": ["slots.limitations"],
+      "style": "standard",
+      "fallback_style": "expert"
+    },
+    {
+      "id": "concept_history",
+      "entity_type": "Concept",
+      "intent": "history",
+      "patterns": [
+        "Who developed {name}?",
+        "What is the history of {name}?"
+      ],
+      "field_paths": ["slots.history"],
+      "style": "standard",
+      "fallback_style": "expert"
+    }
+  ]
+}
+

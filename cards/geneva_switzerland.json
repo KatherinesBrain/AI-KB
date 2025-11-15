@@ -1,0 +1,70 @@
+{
+  "id": "geneva_switzerland",
+  "entity_type": "Place",
+  "labels": [
+    "Geneva",
+    "Geneva, Switzerland"
+  ],
+  "summary_variants": {
+    "short_answer": "Geneva is a Swiss city on Lake Geneva known for diplomacy, humanitarian organizations, and finance.",
+    "kid_friendly": "Geneva is a city in Switzerland where many world helpers like the United Nations meet to solve problems.",
+    "standard": "Geneva lies in western Switzerland near the French border and hosts numerous international organizations, including the United Nations Office at Geneva (UNOG), the World Health Organization, and the International Committee of the Red Cross. Its economy blends diplomacy, watchmaking, and private banking.",
+    "expert_notes": "Mention CERN’s proximity, humanitarian law roots, and the city’s role in global governance frameworks."
+  },
+  "slots": {
+    "place_type": "city",
+    "country": "Switzerland",
+    "region": "Canton of Geneva",
+    "coordinates": {
+      "lat": 46.2044,
+      "lon": 6.1432
+    },
+    "population_estimate": 203000,
+    "founded_or_incorporated": "founded 1st century BCE (Allobrogian settlement); modern charter 1541",
+    "notable_features": [
+      "United Nations Office at Geneva",
+      "World Health Organization headquarters",
+      "International Committee of the Red Cross"
+    ],
+    "economic_roles": [
+      "Diplomacy and NGOs",
+      "Financial services",
+      "Luxury watchmaking"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "wp_geneva",
+      "type": "reference_article",
+      "title": "Geneva",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Geneva",
+      "supports_claims": [
+        "/slots/notable_features"
+      ],
+      "notes": "City profile."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Ville de Genève - Faits et chiffres",
+        "url": "https://www.geneve.ch/fr/commune/ville-chiffres",
+        "note": "Municipal statistics."
+      }
+    ],
+    "notes": ""
+  }
+}
+

@@ -1,0 +1,70 @@
+{
+  "id": "kyoto_japan",
+  "entity_type": "Place",
+  "labels": [
+    "Kyoto",
+    "Kyoto, Japan"
+  ],
+  "summary_variants": {
+    "short_answer": "Kyoto is a historic city in Japan known for its temples, gardens, and role as the imperial capital for over a millennium.",
+    "kid_friendly": "Kyoto is a city in Japan with many old temples, colorful shrines, and famous cherry blossoms.",
+    "standard": "Kyoto lies in Japan's Kansai region and served as the imperial capital from 794 to 1868. Today it blends cultural heritage—UNESCO-listed temples, tea ceremony schools, crafts—with universities and technology industries.",
+    "expert_notes": "Mention the Heian period origins, World Heritage sites, cultural preservation policies, and growing semiconductor/tech sectors."
+  },
+  "slots": {
+    "place_type": "city",
+    "country": "Japan",
+    "region": "Kyoto Prefecture / Kansai",
+    "coordinates": {
+      "lat": 35.0116,
+      "lon": 135.7681
+    },
+    "population_estimate": 1465000,
+    "founded_or_incorporated": "794 (Heian-kyō foundation)",
+    "notable_features": [
+      "Former imperial capital of Japan",
+      "UNESCO World Heritage temples and gardens",
+      "Center for tea ceremony and traditional crafts"
+    ],
+    "economic_roles": [
+      "Tourism",
+      "Higher education and research",
+      "Advanced manufacturing (electronics, robotics)"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "wp_kyoto",
+      "type": "reference_article",
+      "title": "Kyoto",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kyoto",
+      "supports_claims": [
+        "/slots/notable_features"
+      ],
+      "notes": "General overview."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Kyoto City Statistics",
+        "url": "https://www2.city.kyoto.lg.jp/",
+        "note": "Municipal data portal."
+      }
+    ],
+    "notes": ""
+  }
+}
+

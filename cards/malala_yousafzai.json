@@ -1,0 +1,80 @@
+{
+  "id": "malala_yousafzai",
+  "entity_type": "Person",
+  "labels": [
+    "Malala Yousafzai",
+    "Malala"
+  ],
+  "summary_variants": {
+    "short_answer": "Malala Yousafzai is a Pakistani education activist and the youngest Nobel Peace Prize laureate.",
+    "kid_friendly": "Malala spoke up so that girls could go to school safely. She survived being hurt and now tells leaders to support education.",
+    "standard": "Malala Yousafzai (born 1997) is a Pakistani activist who campaigned for girls' education in the Swat Valley, survived an assassination attempt by the Taliban in 2012, co-authored the memoir \"I Am Malala,\" and co-founded the Malala Fund. She became the youngest Nobel Peace Prize recipient in 2014.",
+    "expert_notes": "Highlight the BBC Urdu blog, the 2012 attack, the Malala Fund's grant-making model, and her studies at Oxford."
+  },
+  "slots": {
+    "full_name": "Malala Yousafzai",
+    "date_of_birth": "1997-07-12",
+    "place_of_birth": "Mingora, Swat Valley, Pakistan",
+    "nationalities": [
+      "Pakistani",
+      "British"
+    ],
+    "occupations": [
+      "education activist",
+      "author"
+    ],
+    "roles_offices": [
+      "Co-founder, Malala Fund",
+      "UN Messenger of Peace (2017–present)"
+    ],
+    "notable_actions": [
+      "Advocated for girls' education via BBC Urdu blog",
+      "Survived and responded to 2012 assassination attempt",
+      "Established global funding for local education advocates"
+    ],
+    "awards": [
+      "Nobel Peace Prize (2014)",
+      "Sakharov Prize (2013)"
+    ],
+    "education": [
+      "University of Oxford (BA Philosophy, Politics and Economics)"
+    ],
+    "current_status": "Living"
+  },
+  "evidence": [
+    {
+      "source_id": "wp_malala_yousafzai",
+      "type": "reference_article",
+      "title": "Malala Yousafzai",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Malala_Yousafzai",
+      "supports_claims": [
+        "/slots/notable_actions",
+        "/slots/awards"
+      ],
+      "notes": "Summarizes activism timeline."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Malala Fund - About",
+        "url": "https://malala.org/malala",
+        "note": "Official bio."
+      }
+    ],
+    "notes": ""
+  }
+}
+

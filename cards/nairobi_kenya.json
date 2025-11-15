@@ -1,0 +1,70 @@
+{
+  "id": "nairobi_kenya",
+  "entity_type": "Place",
+  "labels": [
+    "Nairobi",
+    "Nairobi, Kenya"
+  ],
+  "summary_variants": {
+    "short_answer": "Nairobi is the capital and largest city of Kenya, serving as East Africa's financial and diplomatic hub.",
+    "kid_friendly": "Nairobi is Kenya's big city where the government works and where many people build things, do business, and visit nearby wildlife parks.",
+    "standard": "Nairobi sits at 1,795 meters above sea level and hosts Kenya’s national government, multinational headquarters, and major UN offices. Its economy combines finance, technology, logistics, and tourism linked to Nairobi National Park.",
+    "expert_notes": "Discuss rapid urbanization, transport corridors (SGR, BRT plans), and its role as headquarters for UNEP and UN-Habitat."
+  },
+  "slots": {
+    "place_type": "city",
+    "country": "Kenya",
+    "region": "Nairobi County",
+    "coordinates": {
+      "lat": -1.2921,
+      "lon": 36.8219
+    },
+    "population_estimate": 4700000,
+    "founded_or_incorporated": "1899 (rail depot), 1907 (capital)",
+    "notable_features": [
+      "Capital city of Kenya",
+      "Hosts UNEP and UN-Habitat headquarters",
+      "Adjacent to Nairobi National Park"
+    ],
+    "economic_roles": [
+      "Finance and regional headquarters",
+      "Technology startups (Silicon Savannah)",
+      "Transportation and logistics"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "wp_nairobi",
+      "type": "reference_article",
+      "title": "Nairobi",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nairobi",
+      "supports_claims": [
+        "/slots/notable_features"
+      ],
+      "notes": "General overview."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Nairobi County Profile",
+        "url": "https://nairobi.go.ke/about-nairobi/",
+        "note": "County government overview."
+      }
+    ],
+    "notes": ""
+  }
+}
+

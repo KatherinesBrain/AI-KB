@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "schema_version": "0.1",
+    "generated_at": "2024-01-01T00:00:00Z",
+    "notes": "Manual smoke-test prompts for verifying question → template → answer mapping."
+  },
+  "tests": [
+    {
+      "question": "Who is Barack Obama?",
+      "expected_entity_id": "barack_obama",
+      "expected_intent": "identity_overview"
+    },
+    {
+      "question": "Where was Barack Obama born?",
+      "expected_entity_id": "barack_obama",
+      "expected_intent": "place_of_birth"
+    },
+    {
+      "question": "When was Marie Curie born?",
+      "expected_entity_id": "marie_curie",
+      "expected_intent": "date_of_birth"
+    },
+    {
+      "question": "What research is Jane Goodall known for?",
+      "expected_entity_id": "jane_goodall",
+      "expected_intent": "notable_work"
+    },
+    {
+      "question": "Where is Kyoto located?",
+      "expected_entity_id": "kyoto_japan",
+      "expected_intent": "location_overview"
+    },
+    {
+      "question": "What makes Reykjavík notable?",
+      "expected_entity_id": "reykjavik_iceland",
+      "expected_intent": "place_notability"
+    },
+    {
+      "question": "Define photosynthesis.",
+      "expected_entity_id": "photosynthesis",
+      "expected_intent": "definition"
+    },
+    {
+      "question": "What are key features of blockchain technology?",
+      "expected_entity_id": "blockchain",
+      "expected_intent": "key_characteristics"
+    },
+    {
+      "question": "What happened during the Apollo 11 Moon landing?",
+      "expected_entity_id": "apollo_11_moon_landing",
+      "expected_intent": "event_summary"
+    },
+    {
+      "question": "When did Apollo 11 land on the Moon?",
+      "expected_entity_id": "apollo_11_moon_landing",
+      "expected_intent": "event_date"
+    },
+    {
+      "question": "What is Nairobi's population like?",
+      "expected_entity_id": "nairobi_kenya",
+      "expected_intent": "population"
+    },
+    {
+      "question": "Why is vaccination considered high-consensus?",
+      "expected_entity_id": "vaccination",
+      "expected_intent": "consensus_rationale"
+    }
+  ]
+}

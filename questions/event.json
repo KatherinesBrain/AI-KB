@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "schema_version": "0.1",
+    "generated_at": "2024-01-01T00:00:00Z"
+  },
+  "templates": [
+    {
+      "id": "event_summary",
+      "entity_type": "Event",
+      "intent": "event_summary",
+      "patterns": [
+        "What happened during {name}?",
+        "Tell me about {name}"
+      ],
+      "field_paths": ["summary_variants.short_answer"],
+      "style": "short",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "event_date",
+      "entity_type": "Event",
+      "intent": "event_date",
+      "patterns": [
+        "When did {name} occur?",
+        "What is the date of {name}?"
+      ],
+      "field_paths": ["slots.date"],
+      "style": "short",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "event_location",
+      "entity_type": "Event",
+      "intent": "event_location",
+      "patterns": [
+        "Where did {name} happen?",
+        "What was the location of {name}?"
+      ],
+      "field_paths": ["slots.location"],
+      "style": "short",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "event_participants",
+      "entity_type": "Event",
+      "intent": "participants",
+      "patterns": [
+        "Who was involved in {name}?",
+        "Key participants in {name}"
+      ],
+      "field_paths": ["slots.participants"],
+      "style": "list",
+      "fallback_style": "standard"
+    },
+    {
+      "id": "event_significance",
+      "entity_type": "Event",
+      "intent": "significance",
+      "patterns": [
+        "Why is {name} important?",
+        "What is the significance of {name}?"
+      ],
+      "field_paths": ["slots.significance"],
+      "style": "standard",
+      "fallback_style": "expert"
+    }
+  ]
+}
+

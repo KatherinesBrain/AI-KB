@@ -1,0 +1,88 @@
+{
+  "id": "neil_armstrong",
+  "entity_type": "Person",
+  "labels": [
+    "Neil Armstrong",
+    "Neil Alden Armstrong"
+  ],
+  "summary_variants": {
+    "short_answer": "Neil Armstrong was an American astronaut and aeronautical engineer who became the first human to walk on the Moon during Apollo 11 in 1969.",
+    "kid_friendly": "Neil Armstrong flew to the Moon, climbed down a ladder, and took the first human steps on its surface in 1969.",
+    "standard": "Neil Armstrong (1930–2012) was an American test pilot, aeronautical engineer, and NASA astronaut who commanded the Apollo 11 mission and performed the first crewed lunar landing. Before joining NASA’s astronaut corps, he flew combat missions in Korea and test piloted advanced aircraft for NACA.",
+    "expert_notes": "Cover his Gemini 8 docking, the LM descent manual landing, post-NASA academic career, and work on investigation boards."
+  },
+  "slots": {
+    "full_name": "Neil Alden Armstrong",
+    "date_of_birth": "1930-08-05",
+    "place_of_birth": "Wapakoneta, Ohio, United States",
+    "date_of_death": "2012-08-25",
+    "nationalities": ["American"],
+    "occupations": [
+      "astronaut",
+      "aeronautical engineer",
+      "test pilot",
+      "professor"
+    ],
+    "roles_offices": [
+      "Commander, Apollo 11",
+      "Deputy Associate Administrator for Aeronautics (NASA)",
+      "Professor of Aerospace Engineering, University of Cincinnati"
+    ],
+    "notable_actions": [
+      "Executed first crewed lunar landing and EVA",
+      "Commanded Gemini 8 docking mission",
+      "Served on the Rogers Commission after the Challenger accident"
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (1969)",
+      "Congressional Space Medal of Honor (1978)"
+    ],
+    "education": [
+      "Purdue University (BS Aeronautical Engineering)",
+      "University of Southern California (MS Aerospace Engineering)"
+    ],
+    "current_status": "Deceased (2012)"
+  },
+  "evidence": [
+    {
+      "source_id": "nasa_neil_armstrong_bio",
+      "type": "reference_article",
+      "title": "Neil A. Armstrong Biography",
+      "year": 2023,
+      "venue": "NASA",
+      "url": "https://www.nasa.gov/astronaut/neil-armstrong/",
+      "supports_claims": [
+        "/slots/notable_actions",
+        "/slots/roles_offices"
+      ],
+      "notes": "Official NASA biography."
+    }
+  ],
+  "consensus_level": "historical_record",
+  "epistemic_type": "empirical_historical",
+  "relations": [
+    {
+      "type": "led_event",
+      "target_id": "apollo_11_moon_landing",
+      "description": "Commander of Apollo 11."
+    }
+  ],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Neil Armstrong - Smithsonian",
+        "url": "https://airandspace.si.edu/stories/editorial/neil-armstrong",
+        "note": "Smithsonian Air & Space profile."
+      }
+    ],
+    "notes": ""
+  }
+}
+

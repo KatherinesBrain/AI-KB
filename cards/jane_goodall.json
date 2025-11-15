@@ -1,0 +1,77 @@
+{
+  "id": "jane_goodall",
+  "entity_type": "Person",
+  "labels": [
+    "Jane Goodall",
+    "Dame Jane Morris Goodall"
+  ],
+  "summary_variants": {
+    "short_answer": "Jane Goodall is a British primatologist whose long-term field studies of wild chimpanzees reshaped our understanding of animal behavior.",
+    "kid_friendly": "Jane Goodall watched chimpanzees in the forest for many years and learned they can make tools and have families like we do.",
+    "standard": "Jane Goodall (born 1934) is a British primatologist and conservation advocate best known for her six-decade study of wild chimpanzees in Gombe Stream National Park, Tanzania. Her observations of tool use, social bonds, and emotions in chimpanzees transformed primatology and fueled global conservation work.",
+    "expert_notes": "Note 1960 Gombe arrival, National Geographic funding, findings on tool modification, political dynamics within chimp communities, and global Roots & Shoots outreach."
+  },
+  "slots": {
+    "full_name": "Dame Jane Morris Goodall",
+    "date_of_birth": "1934-04-03",
+    "place_of_birth": "London, England, United Kingdom",
+    "nationalities": ["British"],
+    "occupations": [
+      "primatologist",
+      "anthropologist",
+      "conservationist"
+    ],
+    "roles_offices": [
+      "Founder, Jane Goodall Institute",
+      "UN Messenger of Peace"
+    ],
+    "notable_actions": [
+      "Documented tool use among chimpanzees at Gombe",
+      "Established Roots & Shoots youth program",
+      "Advocated for habitat conservation and animal welfare"
+    ],
+    "awards": [
+      "Kyoto Prize (1990)",
+      "Templeton Prize (2021)"
+    ],
+    "education": [
+      "University of Cambridge (PhD in Ethology)"
+    ],
+    "current_status": "Living"
+  },
+  "evidence": [
+    {
+      "source_id": "wp_jane_goodall",
+      "type": "reference_article",
+      "title": "Jane Goodall",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jane_Goodall",
+      "supports_claims": [
+        "/slots/notable_actions"
+      ],
+      "notes": "General reference."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Jane Goodall Institute Biography",
+        "url": "https://janegoodall.org/about/jane/",
+        "note": "Institute profile."
+      }
+    ],
+    "notes": ""
+  }
+}
+

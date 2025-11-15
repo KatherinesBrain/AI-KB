@@ -1,0 +1,77 @@
+{
+  "id": "apollo_11_moon_landing",
+  "entity_type": "Event",
+  "labels": [
+    "Apollo 11 Moon landing",
+    "Apollo 11"
+  ],
+  "summary_variants": {
+    "short_answer": "Apollo 11 was the 1969 NASA mission during which Neil Armstrong and Buzz Aldrin landed on the Moon and walked on its surface.",
+    "kid_friendly": "Apollo 11 was a trip where astronauts flew to the Moon. Neil Armstrong climbed down first and said it was \"one small step.\"",
+    "standard": "Apollo 11 was the fifth crewed mission of NASA's Apollo program. Launched on July 16, 1969, it entered lunar orbit and on July 20 landed the Lunar Module Eagle in the Sea of Tranquility, allowing Neil Armstrong and Buzz Aldrin to conduct extravehicular activities while Michael Collins orbited in the Command Module.",
+    "expert_notes": "Address Saturn V launch sequence, translunar injection, LM descent manual override, EVA timeline, sample return, and geopolitics of the space race."
+  },
+  "slots": {
+    "date": "1969-07-20",
+    "location": "Sea of Tranquility, Moon",
+    "event_type": "space_mission",
+    "participants": [
+      "neil_armstrong",
+      "buzz_aldrin",
+      "michael_collins"
+    ],
+    "significance": [
+      "Met President Kennedy's 1961 goal of landing humans on the Moon",
+      "Demonstrated feasibility of crewed lunar exploration and sample return",
+      "Provided geopolitical and scientific momentum for subsequent missions"
+    ],
+    "outcomes": [
+      "Collected 21.6 kg of lunar material",
+      "Conducted experiments (solar wind, seismic, laser retroreflector)",
+      "Returned safely to Earth on July 24, 1969"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "nasa_apollo11_presskit",
+      "type": "report",
+      "title": "Apollo 11 Press Kit",
+      "year": 1969,
+      "venue": "NASA",
+      "url": "https://www.nasa.gov/specials/apollo50th/pdf/apollo11_press_kit.pdf",
+      "supports_claims": [
+        "/slots/date",
+        "/slots/participants",
+        "/slots/outcomes"
+      ],
+      "notes": "Official mission documentation."
+    }
+  ],
+  "consensus_level": "historical_record",
+  "epistemic_type": "empirical_historical",
+  "relations": [
+    {
+      "type": "involves_person",
+      "target_id": "neil_armstrong",
+      "description": "Armstrong served as mission commander."
+    }
+  ],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "Apollo 11 Mission Overview",
+        "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html",
+        "note": "NASA mission page."
+      }
+    ],
+    "notes": ""
+  }
+}
+

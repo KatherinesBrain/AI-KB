@@ -1,0 +1,70 @@
+{
+  "id": "reykjavik_iceland",
+  "entity_type": "Place",
+  "labels": [
+    "Reykjavík",
+    "Reykjavík, Iceland"
+  ],
+  "summary_variants": {
+    "short_answer": "Reykjavík is the capital and largest city of Iceland, known for geothermal energy use, cultural life, and proximity to volcanic landscapes.",
+    "kid_friendly": "Reykjavík is Iceland's main city where people use hot water from the ground to heat homes and where colorful houses line the harbor.",
+    "standard": "Reykjavík sits on Faxaflói Bay in southwest Iceland and houses over one-third of the country's population. It relies heavily on geothermal district heating, fishing-related industries, creative sectors, and tourism tied to nearby natural attractions.",
+    "expert_notes": "Mention renewable energy mix, innovation in district heating, and Arctic governance roles."
+  },
+  "slots": {
+    "place_type": "city",
+    "country": "Iceland",
+    "region": "Capital Region",
+    "coordinates": {
+      "lat": 64.1466,
+      "lon": -21.9426
+    },
+    "population_estimate": 137000,
+    "founded_or_incorporated": "settled c. 870; charter 1786",
+    "notable_features": [
+      "Capital of Iceland",
+      "Geothermal district heating covering ~90% of buildings",
+      "Gateway to Icelandic highlands and volcanoes"
+    ],
+    "economic_roles": [
+      "Government and services",
+      "Tourism and creative industries",
+      "Renewable energy innovation"
+    ]
+  },
+  "evidence": [
+    {
+      "source_id": "wp_reykjavik",
+      "type": "reference_article",
+      "title": "Reykjavík",
+      "year": 2024,
+      "venue": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+      "supports_claims": [
+        "/slots/notable_features"
+      ],
+      "notes": "General overview."
+    }
+  ],
+  "consensus_level": "consensus_high",
+  "epistemic_type": "empirical_historical",
+  "relations": [],
+  "meta": {
+    "schema_version": "0.1",
+    "created_at": "2024-01-01T00:00:00Z",
+    "last_reviewed": "2024-01-15T00:00:00Z",
+    "reviewed_by": [
+      "editor_team"
+    ],
+    "sources": [
+      {
+        "type": "reference_article",
+        "title": "City of Reykjavík - Statistics",
+        "url": "https://reykjavik.is/en/statistics",
+        "note": "Municipal data."
+      }
+    ],
+    "notes": ""
+  }
+}
+
