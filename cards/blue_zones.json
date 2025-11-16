@@ -7,17 +7,17 @@
   ],
   "summary_variants": {
     "short_answer": "Blue Zones are regions popularized by researchers where communities reportedly have higher life expectancy and concentrations of centenarians.",
-    "kid_friendly": "Blue Zones are places where lots of people live to be very old, often because they eat mostly plants, move every day, and stay close with friends and family.",
+    "kid_friendly": "Blue Zones are places where lots of people live to be very old. People there often eat mostly plants, move every day, and stay close with friends and family.",
     "standard": "Blue Zones refer to geographic areas identified by Dan Buettner and colleagues where residents appear to reach age 90 or 100 at higher-than-average rates. Proposed contributors include plant-forward diets, daily low-intensity activity, community support, and limited smoking, though data quality has been debated.",
     "expert_notes": "Outline Ikaria, Okinawa, Sardinia, Nicoya, and Loma Linda; discuss demographic methods, selection bias critiques, and the difference between marketing narratives and peer-reviewed epidemiology."
   },
   "slots": {
     "definition": "Named regions where observational data suggests above-average longevity and atypically high numbers of nonagenarians and centenarians.",
     "key_characteristics": [
-      "Plant-heavy diets with modest caloric intake",
+      "Commonly reported plant-heavy diets with modest caloric intake",
       "Daily low-intensity physical activity embedded in routines",
       "Strong social cohesion, faith communities, and purpose-driven lifestyles",
-      "Limited tobacco use and moderate alcohol consumption"
+      "Limited tobacco use and moderate alcohol consumption in many residents"
     ],
     "applications": [
       "Public-health storytelling to encourage lifestyle changes",
@@ -83,11 +83,11 @@
       ],
       "year": 2019,
       "venue": "Gerontology Research and Practice",
-      "url": "https://example.org/blue-zones-critique",
+      "url": null,
       "supports_claims": [
         "/slots/limitations"
       ],
-      "notes": "Representative critique covering validation concerns. Replace URL with actual publication during review."
+      "notes": "Representative critique covering validation concerns. Replace null URL with the actual publication link before production."
     }
   ],
   "consensus_level": "consensus_mixed",
@@ -96,9 +96,10 @@
   "meta": {
     "schema_version": "0.1",
     "created_at": "2024-01-20T00:00:00Z",
-    "last_reviewed": "2024-01-20T00:00:00Z",
+    "last_reviewed": "2025-11-15T00:00:00Z",
     "reviewed_by": [
-      "editor_team"
+      "editor_team",
+      "katherine"
     ],
     "sources": [
       {
@@ -108,6 +109,8 @@
         "note": "Program description; verify claims before citation."
       }
     ],
-    "notes": "Include a validation audit before shipping to production KB."
+    "notes": "Include a validation audit before shipping to production KB.",
+    "review_status": "flagged",
+    "review_notes": "2025-11-15: Card captures Blue Zones narratives plus methodological critiques. consensus_level left at consensus_mixed due to debated data quality/causality. Kid-friendly summary softened to avoid implying proven causes. Critique citation (martin_2019_critique) still missing a resolvable URL; keeping review_status flagged until updated."
   }
 }

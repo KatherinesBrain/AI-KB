@@ -11,7 +11,7 @@
     "expert_notes": "Mention PSI/PSII dynamics, electron transport chains, rubisco limitations, and the difference between C3, C4, and CAM pathways."
   },
   "slots": {
-    "definition": "A light-dependent metabolic pathway that converts solar energy into chemical energy while releasing oxygen.",
+    "definition": "A light-dependent metabolic pathway that converts solar energy into chemical energy by fixing carbon dioxide and splitting water, releasing oxygen as a byproduct.",
     "key_characteristics": [
       "Occurs in chloroplast thylakoid membranes (light reactions) and stroma (Calvin cycle)",
       "Uses chlorophyll and accessory pigments to capture specific wavelengths",
@@ -47,7 +47,9 @@
       "year": 2020,
       "venue": "Pearson",
       "supports_claims": [
-        "/slots/key_characteristics"
+        "/slots/definition",
+        "/slots/key_characteristics",
+        "/slots/limitations"
       ],
       "notes": "Standard biology reference."
     }
@@ -58,9 +60,10 @@
   "meta": {
     "schema_version": "0.1",
     "created_at": "2024-01-01T00:00:00Z",
-    "last_reviewed": "2024-01-15T00:00:00Z",
+    "last_reviewed": "2025-11-15T00:00:00Z",
     "reviewed_by": [
-      "editor_team"
+      "editor_team",
+      "katherine"
     ],
     "sources": [
       {
@@ -70,7 +73,8 @@
         "note": "Overview article."
       }
     ],
-    "notes": ""
+    "notes": "",
+    "review_status": "verified",
+    "review_notes": "2025-11-15: Checked definitions and process description against Campbell Biology (12th ed.) and Britannica. Card sticks to well-established mechanisms (light reactions, Calvin cycle, rubisco/photorespiration limits). Marked consensus_level as consensus_high for core biological process."
   }
 }
-
