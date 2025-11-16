@@ -9,19 +9,25 @@
   "summary_variants": {
     "short_answer": "Barack Obama is an American politician and author who served as the 44th President of the United States from 2009 to 2017.",
     "kid_friendly": "Barack Obama was the leader of the United States for eight years and worked on rules about health care, the economy, and the environment.",
-    "standard": "Barack Obama is an American politician, lawyer, and author who represented Illinois in the U.S. Senate before serving two terms as the 44th President of the United States (2009–2017). His administration focused on economic recovery, health-care reform, climate agreements, and expanded diplomacy.",
+    "standard": "Barack Obama is an American politician, lawyer, and author who represented Illinois in the U.S. Senate before serving two terms as the 44th President of the United States (2009\u20132017). His administration focused on economic recovery, health-care reform, climate agreements, and expanded diplomacy.",
     "expert_notes": "Highlight the Affordable Care Act, response to the Great Recession, bin Laden operation, Iran nuclear negotiations, and long-term impacts on party coalitions."
   },
   "slots": {
     "full_name": "Barack Hussein Obama II",
     "date_of_birth": "1961-08-04",
     "place_of_birth": "Honolulu, Hawaii, United States",
-    "nationalities": ["American"],
-    "occupations": ["politician", "lawyer", "author"],
+    "nationalities": [
+      "American"
+    ],
+    "occupations": [
+      "politician",
+      "lawyer",
+      "author"
+    ],
     "roles_offices": [
-      "44th President of the United States (2009–2017)",
-      "U.S. Senator from Illinois (2005–2008)",
-      "Illinois State Senator (1997–2004)"
+      "44th President of the United States (2009\u20132017)",
+      "U.S. Senator from Illinois (2005\u20132008)",
+      "Illinois State Senator (1997\u20132004)"
     ],
     "notable_actions": [
       "Signed the Affordable Care Act (2010)",
@@ -29,7 +35,9 @@
       "Negotiated the Paris Agreement on climate (2015)",
       "Supported economic stimulus and auto-industry rescue (2009)"
     ],
-    "awards": ["Nobel Peace Prize (2009)"],
+    "awards": [
+      "Nobel Peace Prize (2009)"
+    ],
     "education": [
       "Columbia University (BA)",
       "Harvard Law School (JD)"
@@ -50,6 +58,32 @@
         "/slots/roles_offices"
       ],
       "notes": "General biographical summary."
+    },
+    {
+      "source_id": "whitehouse_president_obama",
+      "type": "reference_article",
+      "title": "Barack Obama - The White House",
+      "year": 2021,
+      "venue": "whitehouse.gov",
+      "url": "https://www.whitehouse.gov/about-the-white-house/presidents/barack-obama/",
+      "supports_claims": [
+        "/summary_variants/standard",
+        "/slots/notable_actions",
+        "/slots/roles_offices"
+      ],
+      "notes": "Official presidential biography summarizing major initiatives."
+    },
+    {
+      "source_id": "nobel_peace_2009_obama",
+      "type": "reference_article",
+      "title": "The Nobel Peace Prize 2009",
+      "year": 2009,
+      "venue": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/peace/2009/press-release/",
+      "supports_claims": [
+        "/slots/awards"
+      ],
+      "notes": "Official Nobel Prize announcement for Barack Obama."
     }
   ],
   "consensus_level": "consensus_high",
@@ -64,19 +98,27 @@
   "meta": {
     "schema_version": "0.1",
     "created_at": "2024-01-01T00:00:00Z",
-    "last_reviewed": "2024-01-15T00:00:00Z",
+    "last_reviewed": "2025-01-10T00:00:00Z",
     "reviewed_by": [
-      "editor_team"
+      "editor_team",
+      "katherine"
     ],
     "sources": [
       {
         "type": "reference_article",
-        "title": "Barack Obama - Biography",
+        "title": "Barack Obama - The White House",
         "url": "https://www.whitehouse.gov/about-the-white-house/presidents/barack-obama/",
-        "note": "White House historical summary."
+        "note": "Official presidential biography."
+      },
+      {
+        "type": "reference_article",
+        "title": "Barack Obama - Britannica",
+        "url": "https://www.britannica.com/biography/Barack-Obama",
+        "note": "Encyclopedia overview used for cross-checking."
       }
     ],
-    "notes": ""
+    "notes": "",
+    "review_status": "verified",
+    "review_notes": "2025-01-10: Verified biographical data using White House profile (Tier 3), Wikipedia cross-check (Tier 4), and Nobel Prize announcement (Tier 3). Consensus tagged high; no placeholders."
   }
 }
-

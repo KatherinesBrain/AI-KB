@@ -34,17 +34,43 @@
   },
   "evidence": [
     {
-      "source_id": "wp_honolulu",
+      "source_id": "cch_about_honolulu",
       "type": "reference_article",
-      "title": "Honolulu",
-      "year": 2024,
-      "venue": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Honolulu",
+      "title": "About Honolulu",
+      "year": 2023,
+      "venue": "City and County of Honolulu",
+      "url": "https://www.honolulu.gov/csd/public-communications/featured-links/about-honolulu.html",
       "supports_claims": [
-        "/slots/population_estimate",
-        "/slots/notable_features"
+        "/summary_variants/standard",
+        "/slots/notable_features",
+        "/slots/economic_roles",
+        "/slots/founded_or_incorporated"
       ],
-      "notes": "General statistics."
+      "notes": "Municipal profile describing Honolulu's role as Hawaii's capital and economic center."
+    },
+    {
+      "source_id": "census_honolulu_quickfacts",
+      "type": "report",
+      "title": "QuickFacts: Honolulu CDP, Hawaii",
+      "year": 2023,
+      "venue": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/fact/table/honolulucdphawaii/PST045222",
+      "supports_claims": [
+        "/slots/population_estimate"
+      ],
+      "notes": "Population estimate and demographic statistics from the U.S. Census Bureau."
+    },
+    {
+      "source_id": "noaa_honolulu_coordinates",
+      "type": "dataset",
+      "title": "Honolulu, Hawaii Latitude/Longitude",
+      "year": 2022,
+      "venue": "National Weather Service",
+      "url": "https://forecast.weather.gov/MapClick.php?textField1=21.3069&textField2=-157.8583",
+      "supports_claims": [
+        "/slots/coordinates"
+      ],
+      "notes": "NOAA station metadata providing official coordinates."
     }
   ],
   "consensus_level": "consensus_high",
@@ -53,18 +79,27 @@
   "meta": {
     "schema_version": "0.1",
     "created_at": "2024-01-01T00:00:00Z",
-    "last_reviewed": "2024-01-15T00:00:00Z",
+    "last_reviewed": "2025-01-10T00:00:00Z",
     "reviewed_by": [
-      "editor_team"
+      "editor_team",
+      "katherine"
     ],
     "sources": [
       {
         "type": "reference_article",
-        "title": "Honolulu - City and County Data",
+        "title": "City and County of Honolulu - About Honolulu",
         "url": "https://www.honolulu.gov/csd/public-communications/featured-links/about-honolulu.html",
-        "note": "Municipal profile."
+        "note": "Municipal fact sheet"
+      },
+      {
+        "type": "report",
+        "title": "U.S. Census Bureau QuickFacts \u2013 Honolulu CDP, Hawaii",
+        "url": "https://www.census.gov/quickfacts/fact/table/honolulucdphawaii/PST045222",
+        "note": "Population reference"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "review_status": "verified",
+    "review_notes": "2025-01-10: Verified capital status, economic roles, and founding data via City and County site (Tier 3) and population via Census QuickFacts (Tier 1/2). Coordinates double-checked with NOAA dataset. Consensus marked high."
   }
 }

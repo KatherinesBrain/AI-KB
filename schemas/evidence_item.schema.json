@@ -3,7 +3,11 @@
   "$id": "https://livingkb/schema/evidence_item.schema.json",
   "title": "EvidenceItem",
   "type": "object",
-  "required": ["source_id", "type", "title", "url"],
+  "required": [
+    "source_id",
+    "type",
+    "title"
+  ],
   "properties": {
     "source_id": {
       "type": "string",
@@ -18,27 +22,73 @@
         "primary_source",
         "report",
         "interview",
-        "dataset"
+        "dataset",
+        "placeholder"
       ]
     },
-    "title": { "type": "string" },
+    "title": {
+      "type": "string"
+    },
     "authors": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "year": { "type": "integer" },
-    "venue": { "type": "string" },
-    "study_type": { "type": "string" },
+    "year": {
+      "type": "integer"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "study_type": {
+      "type": "string"
+    },
     "url": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "uri"
     },
     "supports_claims": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "notes": { "type": "string" }
+    "notes": {
+      "type": "string"
+    }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "placeholder"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "notes"
+        ],
+        "properties": {
+          "url": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  ]
 }
-

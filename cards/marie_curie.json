@@ -3,16 +3,16 @@
   "entity_type": "Person",
   "labels": [
     "Marie Curie",
-    "Maria Skłodowska-Curie"
+    "Maria Sk\u0142odowska-Curie"
   ],
   "summary_variants": {
     "short_answer": "Marie Curie was a Polish-French physicist and chemist who pioneered research on radioactivity and won two Nobel Prizes.",
     "kid_friendly": "Marie Curie studied tiny, invisible things called atoms and discovered new elements. She won two big science prizes for her work.",
-    "standard": "Marie Curie (1867–1934) was a Polish-born physicist and chemist who moved to France, discovered the elements polonium and radium, and helped establish the theory of radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields.",
+    "standard": "Marie Curie (1867\u20131934) was a Polish-born physicist and chemist who moved to France, discovered the elements polonium and radium, and helped establish the theory of radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields.",
     "expert_notes": "Discuss her isolation of radium, development of mobile X-ray units during World War I, and enduring impact on nuclear physics and medical imaging."
   },
   "slots": {
-    "full_name": "Maria Salomea Skłodowska-Curie",
+    "full_name": "Maria Salomea Sk\u0142odowska-Curie",
     "date_of_birth": "1867-11-07",
     "place_of_birth": "Warsaw, Congress Poland (Russian Empire)",
     "date_of_death": "1934-07-04",
@@ -44,17 +44,43 @@
   },
   "evidence": [
     {
-      "source_id": "wp_marie_curie",
+      "source_id": "britannica_marie_curie",
       "type": "reference_article",
       "title": "Marie Curie",
-      "year": 2024,
-      "venue": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "year": 2023,
+      "venue": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Marie-Curie",
       "supports_claims": [
+        "/summary_variants/standard",
         "/slots/notable_actions",
+        "/slots/roles_offices",
+        "/slots/education"
+      ],
+      "notes": "Comprehensive biography covering discoveries and academic roles."
+    },
+    {
+      "source_id": "nobel_marie_curie_facts",
+      "type": "reference_article",
+      "title": "Facts about Marie Curie",
+      "year": 2022,
+      "venue": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+      "supports_claims": [
         "/slots/awards"
       ],
-      "notes": "Standard biographical reference."
+      "notes": "Official Nobel Prize site documenting both awards."
+    },
+    {
+      "source_id": "smithsonian_curie_mobile_xray",
+      "type": "reference_article",
+      "title": "How Marie Curie Brought X-Rays to the Battlefield",
+      "year": 2017,
+      "venue": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/how-marie-curie-brought-x-rays-to-the-battlefield-180965240/",
+      "supports_claims": [
+        "/slots/notable_actions[2]"
+      ],
+      "notes": "Details Curie's development of mobile radiography units in World War I."
     }
   ],
   "consensus_level": "consensus_high",
@@ -69,19 +95,27 @@
   "meta": {
     "schema_version": "0.1",
     "created_at": "2024-01-01T00:00:00Z",
-    "last_reviewed": "2024-01-15T00:00:00Z",
+    "last_reviewed": "2025-01-10T00:00:00Z",
     "reviewed_by": [
-      "editor_team"
+      "editor_team",
+      "katherine"
     ],
     "sources": [
       {
         "type": "reference_article",
-        "title": "Marie Curie - Nobel Prize",
+        "title": "Marie Curie - Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Marie-Curie",
+        "note": "Tier 3 reference"
+      },
+      {
+        "type": "reference_article",
+        "title": "Marie Curie - Nobel Prize facts",
         "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
-        "note": "Official Nobel biography."
+        "note": "Award documentation"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "review_status": "verified",
+    "review_notes": "2025-01-10: Checked biography via Britannica (Tier 3) and Nobel Prize site (Tier 3); Smithsonian feature (Tier 4) documents WWI mobile radiography work. Consensus high. No placeholders."
   }
 }
-

@@ -50,9 +50,36 @@
       "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
       "supports_claims": [
         "/slots/key_characteristics",
+        "/slots/limitations",
+        "/slots/definition"
+      ],
+      "notes": "U.S. National Institute of Standards and Technology primer on blockchain fundamentals."
+    },
+    {
+      "source_id": "mit_techreview_blockchain",
+      "type": "reference_article",
+      "title": "A (very) short history of blockchain",
+      "year": 2019,
+      "venue": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2019/02/06/103281/a-very-short-history-of-blockchain-technology/",
+      "supports_claims": [
+        "/slots/history",
+        "/summary_variants/standard"
+      ],
+      "notes": "Timeline summary of blockchain development from Bitcoin onward."
+    },
+    {
+      "source_id": "hbr_truth_about_blockchain",
+      "type": "reference_article",
+      "title": "The Truth About Blockchain",
+      "year": 2017,
+      "venue": "Harvard Business Review",
+      "url": "https://hbr.org/2017/01/the-truth-about-blockchain",
+      "supports_claims": [
+        "/slots/applications",
         "/slots/limitations"
       ],
-      "notes": "Technical reference."
+      "notes": "Discusses enterprise adoption drivers along with governance and scalability concerns."
     }
   ],
   "consensus_level": "consensus_mixed",
@@ -61,19 +88,33 @@
   "meta": {
     "schema_version": "0.1",
     "created_at": "2024-01-01T00:00:00Z",
-    "last_reviewed": "2024-01-15T00:00:00Z",
+    "last_reviewed": "2025-01-10T00:00:00Z",
     "reviewed_by": [
-      "editor_team"
+      "editor_team",
+      "katherine"
     ],
     "sources": [
       {
+        "type": "report",
+        "title": "NIST IR 8202",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "note": "Technical overview"
+      },
+      {
         "type": "reference_article",
-        "title": "Blockchain - MIT Technology Review",
-        "url": "https://www.technologyreview.com/2019/03/04/530172/blockchain-explainer/",
-        "note": "Overview article."
+        "title": "MIT Technology Review \u2013 A very short history of blockchain",
+        "url": "https://www.technologyreview.com/2019/02/06/103281/a-very-short-history-of-blockchain-technology/",
+        "note": "Historical context"
+      },
+      {
+        "type": "reference_article",
+        "title": "Harvard Business Review \u2013 The Truth About Blockchain",
+        "url": "https://hbr.org/2017/01/the-truth-about-blockchain",
+        "note": "Business and governance analysis"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "review_status": "verified",
+    "review_notes": "2025-01-10: Consensus set to mixed; NIST report (Tier 3) covers fundamentals, MIT Technology Review (Tier 4) covers history, and HBR article (Tier 4) documents both potential applications and governance/scalability limits."
   }
 }
-
